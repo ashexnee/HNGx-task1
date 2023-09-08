@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNGx Task 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Welcome!</h1>
+        <hr />
+      </header>
+
+      <section class="profile">
+        <div class="profile-image">
+          <img
+            src="colour wheel genshin.jpeg"
+            alt="ash_xne"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+        <div class="profile-details">
+          <h2>ash_xne</h2>
+          <p>Frontend Development</p>
+        </div>
+      </section>
+
+      <section class="about">
+        <p>
+          Hello, I am a university student currently interning at HNG and
+          focusing on frontend development. I'm passionate about gaining
+          experience and connecting with new people in the industry.
+        </p>
+      </section>
+
+      <section class="info">
+        <div class="info-item">
+          <p>UTC Time in milliseconds:</p>
+          <span id="utc-time" data-testid="currentUTCTime">Loading...</span>
+        </div>
+        <div class="info-item">
+          <p>Current Day:</p>
+          <span id="day-of-week" data-testid="currentDayOfTheWeek"
+            >Loading...</span
+          >
+        </div>
+      </section>
+
+      <section class="github-link">
+        <p>
+          Find my GitHub source code
+          <a
+            href="https://github.com/ashexnee/ashexnee.github.io"
+            data-testid="githubURL"
+            >here</a
+          >.
+        </p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
